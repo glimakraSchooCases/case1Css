@@ -1,0 +1,177 @@
+/* root */
+
+:root {
+    --backgroundColor: rgb(101, 100, 100);
+    --fontColor: rgb(215, 215, 215);
+    --fontSize: 1.5rem;
+    
+
+
+}
+
+/* generall type selectors */
+
+body * {
+    color: var(--fontColor);
+    background-color: var(--backgroundColor);
+    font-size: var(--fontSize);
+}
+
+h4 {
+    font-size: 2rem;
+    opacity: 50%;
+}
+
+input[type=email] {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid grey;
+    border-radius: 4px;
+   
+}
+
+input:focus[type=email] {
+    outline: none;
+}
+
+
+
+
+/* footer */
+
+/* type selectors */
+
+footer {
+    padding: 10rem;
+}
+
+footer svg {
+    width: 2rem;
+    padding-left: 2rem;
+
+}
+
+
+
+footer h3 {
+    font-size: 2rem;
+}
+
+footer ul li {
+    padding-left: 3rem;
+}
+
+footer form {
+    padding-top: 3rem;
+}
+
+footer button {
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+
+    background: rgb(75, 4, 66);
+    background: linear-gradient(90deg, rgba(75, 4, 66, 1) 0%, rgba(110, 9, 121, 1) 48%, rgba(139, 23, 138, 1) 72%, rgba(213, 18, 199, 1) 88%, rgba(163, 14, 176, 1) 100%);
+
+}
+
+footer p {
+    margin-bottom: 1rem;
+}
+
+footer button:hover {
+    opacity: 50%;
+}
+
+/* classes */
+
+.footerContainer {
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+
+.footerSection1Container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footerSection1Heading {
+    padding: 2rem;
+}
+
+
+
+
+.footerSection2Container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footerSection2child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerSection3Container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.newsletterContainer {
+    display: flex;
+
+}
+
+
+.footerSection3Child {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletterSvg {
+    padding-bottom: 7.3rem;
+
+}
+
+.newsletterRegister {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.footerSection2Container li {
+    line-height: 3rem
+}
+
+
+@media screen and (max-width: 1038px) {
+
+ 
+
+  .footerContainer {
+    display: block;
+
+  }
+
+  }
+
+  @media screen and (max-width: 1268px) {
+
+    
+  
+   .footerSection1Container {
+    display: block;
+   }
+  
+    }
+   
+
