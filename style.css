@@ -1,7 +1,7 @@
 /* root */
 
 :root {
-    --backgroundColor: rgb(101, 100, 100);
+    --backgroundColor: rgb(31, 30, 30);
     --fontColor: rgb(215, 215, 215);
     --fontSize: 1.5rem;
     
@@ -13,13 +13,22 @@
 
 body * {
     color: var(--fontColor);
-    background-color: var(--backgroundColor);
     font-size: var(--fontSize);
+}
+
+body {
+    background-color: var(--backgroundColor);
+}
+
+header {
+    background-image: url("images/1258622.jpg");
+    height: 30rem;
 }
 
 h4 {
     font-size: 2rem;
-    opacity: 50%;
+    opacity: 50%; 
+
 }
 
 input[type=email] {
@@ -28,12 +37,57 @@ input[type=email] {
     border-left: none;
     border-bottom: 2px solid grey;
     border-radius: 4px;
+    color: black;
+    
    
 }
 
 input:focus[type=email] {
     outline: none;
 }
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+/* generella klasser */
+
+.borderTop {
+    border-top: 1px solid rgb(203, 202, 202);
+}
+
+/* Nav */
+
+.navContainer {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+
+}
+
+ul li a:hover {
+    opacity: 50%;
+    text-decoration: underline;
+}
+
+.heroName {
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.test {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    height: 95%;
+}
+
+
+
 
 
 
@@ -150,7 +204,16 @@ footer button:hover {
 
 .footerSection2Container li {
     line-height: 3rem
-}
+} 
+
+/* .githubTag {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+   
+} */
+
+
 
 
 @media screen and (max-width: 1038px) {
@@ -174,4 +237,8 @@ footer button:hover {
   
     }
    
+
+
+
+
 
