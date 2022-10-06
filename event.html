@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/android-chrome-512x512.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guidad tur</title>
+
+    <meta name="keywords" content="Ansök, boka, Kebnekaise, bergs bestigning">
+    <meta name="description" content="Boka en guidad tur till toppen av Kebnekaise">
+   
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+
+        <!-- Navigation  -->
+        <nav>
+            <ul>
+                <li><i><a href="gallery.html">Galleri</a></i></li>
+                <li><i><a href="index.html">Om mig</a></i></li>
+                <li><i><a href="tutorial-git.html">Git</a></i></li>
+                <li><b><a href="event.html">Evenemang</a></b></li>
+                <li><i><a href="landscape.html">Landskap</a></i></li>
+            </ul>
+        </nav>
+        <hr>
+        <nav>
+            <a href="event.html">Ladda om sidan</a>
+        </nav>
+    </header>
+    <main>
+        <!-- form to sign upp for a guided tour. I am aware that <push> should be used instead of <get> but i use <get> for convinience -->
+
+        <h1>&#9968;Guidad tur&#9968;</h1>
+
+        <form action="event.html" method="get">
+
+            <fieldset>
+                <legend>
+                    Ange kontaktuppgifter
+                </legend>
+                <p>
+                    <label>
+                        Förnamn: <br> <input type="text" name="firstName" id="firstName" required minlength="3"
+                            maxlength="20">
+
+                    </label>
+                </p>
+
+
+                <p>
+                    <label>
+                        Efternamn: <br> <input type="text" name="lastName" id="lastName" required minlength="3"
+                            maxlength="20">
+
+                    </label>
+                </p>
+
+                <p>
+                    <label>
+                        e-mail: <br> <input type="email" name="eMail" id="eMail" required minlength="5" maxlength="20">
+
+                    </label>
+                </p>
+
+                <p>
+                    <label>
+                        Telefon nummer: <br> <input type="tel" name="tel" id="tel" required minlength="10"
+                            maxlength="10">
+                    </label>
+                </p>
+
+                <p>
+                    <label>
+                        Address: <br> <input type="text" name="adress" id="address" required minlength="4"
+                            maxlength="15">
+                    </label>
+                </p>
+
+
+
+                <p>
+                    <label for="info">Trycket är högt - berätta kort nedan varför just du vill bestiga
+                        Kebnekaise:</label>
+                        
+                </p>
+                <textarea name="info" id="info" cols="30" rows="10" minlength="10" maxlength="100" required></textarea>
+
+
+
+                <p>Hur många steg om dagen går du generellt</p>
+                <label>
+
+                    <select name="steps" id="steps">
+
+                        <option value="1000_5000">1 000 - 5 000</option>
+                        <option value="5000_10000">5 000 - 10 000</option>
+                        <option value="10000_+">10 000 eller mer</option>
+
+                    </select>
+
+                </label>
+
+                <p>Att bestiga Kebnekaise är en fysiskt krävande uppgift, för din och andras säkerhet svara därför
+                    sanningsenlight
+                    på följande frågor:</p>
+
+                <p>Hur många gånger i veckan ägnar du dig åt fysisk aktivitet</p>
+
+                <label>
+
+                    <select name="trainig" id="training" required>
+                        <option value="">0</option>
+                        <option value="1_2">1-2</option>
+                        <option value="2_4">2-4</option>
+                        <option value="4_7">4-7</option>
+                    </select>
+
+                </label>
+
+                <p>Om du jämför dig med andra i din ålder hur bra är din fysik</p>
+
+                <label>
+
+                    Dålig <input type="radio" name="physice" id="bad">
+
+                </label>
+
+                <label>
+
+                    Bra <input type="radio" name="physice" id="good">
+
+                </label>
+
+                <label>
+
+                    Mycket bra <input type="radio" name="physice" id="veryGood">
+
+                </label>
+
+
+                <p>
+                    <input type="submit" value="Skicka">
+                </p>
+
+                <input type="reset" value="Radera">
+
+            </fieldset>
+        </form>
+
+
+
+
+        <!-- textarea - to sign upp for our popular guided tour! -->
+
+    </main>
+    <hr>
+    <footer>
+
+        <figure>
+            <img src="images/logo.webp" alt="plants growing from a head" width="100">
+            <figcaption>
+                <a href="https://www.123rf.com/photo_145295201_stock-vector-mental-health-concept-human-head-with-plant-growing-icon-over-white-background-half-line-half-color-.html"
+                    target="_blank">Bildkälla
+                    <br></a>
+
+                &copy; En sida av Robin Surell | @Faads
+            </figcaption>
+        </figure>
+    </footer>
+
+</body>
+
+</html>
