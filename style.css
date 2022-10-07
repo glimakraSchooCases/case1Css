@@ -54,7 +54,9 @@ a {
 }
 
 
-
+article h4 {
+    padding-bottom: 1rem;
+}
 
 
 /* generella klasser */
@@ -118,13 +120,116 @@ nav {
 }
 
 
+@media screen and (max-width: 1268px) {
+
+ 
+
+    .navContainer {
+      display: flex;
+      flex-flow: wrap;
+      justify-content: center;
+      align-items: center;
+  
+    }
+  
 
 
+    header {
+        display: block;
+    }
+
+    }
+  
+    @media screen and (max-width: 770px) {
+
+      
+        .authorTag {
+            display: none;
+            
+        }
+    
+    
+        }
+    
+
+
+/* Main */
+
+/* My interests */
+.myInterestsChild {
+    width: 50rem;
+    text-align: center;
+    line-height: 1.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.myInterestsContainer {
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 770px) {
+
+      
+    .myInterestsContainer {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+
+    }
+
+
+
+
+/* BookSection */
+
+
+.bookContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.bookChild {
+    width: 50rem;
+    text-align: center;
+    line-height: 1.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bookContainer img {
+    padding: 7rem;
+}
+
+
+@media screen and (max-width: 770px) {
+
+      
+    .bookContainer {
+        display: flex;
+        flex-flow: wrap;
+        
+        
+    }
+
+
+    }
 
 
 /* footer */
 
-/* type selectors */
 
 footer {
     padding: 10rem;
@@ -167,7 +272,7 @@ footer button:hover {
     opacity: 50%;
 }
 
-/* classes */
+
 
 .footerContainer {
     display: flex;
@@ -268,6 +373,21 @@ footer button:hover {
     justify-content: center;
     align-items: center;
 
+
+  }
+
+  .footerSection2Container {
+    gap: 2rem;
+  }
+
+  .footerSection3Container {
+    padding-top: 2rem;
+    display: flex;
+    flex-flow: wrap;
+  }
+
+  .newsletterSvg {
+    display: none;
   }
 
   }
