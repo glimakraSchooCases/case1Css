@@ -5,6 +5,7 @@
     --fontColor: rgb(215, 215, 215);
     --fontSize: 1.5rem;
     
+    
 
 
 }
@@ -35,20 +36,23 @@ input[type=email] {
     border-top: none;
     border-right: none;
     border-left: none;
-    border-bottom: 2px solid grey;
+    border-bottom: 2px solid rgb(203, 202, 202);
     border-radius: 4px;
     color: black;
+    background-color: var(--backgroundColor);
     
    
 }
 
 input:focus[type=email] {
     outline: none;
+    color: var(--fontColor);
 }
 
 a {
     text-decoration: none;
 }
+
 
 
 
@@ -65,6 +69,7 @@ a {
     display: flex;
     justify-content: center;
     gap: 3rem;
+    padding-top: 2rem;
 
 }
 
@@ -79,13 +84,38 @@ ul li a:hover {
     
 }
 
-.test {
+.authorTag {
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
-    height: 95%;
+    height: 20%;
+    font-style: italic;
 }
 
+nav {
+    font-weight: 800;
+    
+}
+
+.navContainer a {
+    font-size: 2rem;
+    text-shadow: 3px 3px 3px #aaa;
+}
+
+.active {
+    opacity: 50%;
+    text-decoration: underline;
+    text-shadow: none;
+}
+
+.heroText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+    line-height: 2rem;
+}
 
 
 
@@ -102,7 +132,7 @@ footer {
 
 footer svg {
     width: 2rem;
-    padding-left: 2rem;
+   padding-left: 2rem;
 
 }
 
@@ -149,8 +179,11 @@ footer button:hover {
 
 .footerSection1Container {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    
+    
 }
 
 .footerSection1Heading {
@@ -158,11 +191,20 @@ footer button:hover {
 }
 
 
+.test2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+
 
 
 .footerSection2Container {
     display: flex;
-    justify-content: space-between;
+    gap: 10rem;
 }
 
 
@@ -216,27 +258,21 @@ footer button:hover {
 
 
 
-@media screen and (max-width: 1038px) {
+@media screen and (max-width: 1268px) {
 
  
 
   .footerContainer {
-    display: block;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
 
   }
 
   }
 
-  @media screen and (max-width: 1268px) {
-
-    
   
-   .footerSection1Container {
-    display: block;
-   }
-  
-    }
-   
 
 
 
