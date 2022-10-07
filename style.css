@@ -58,14 +58,20 @@ select {
     color: black;
     background-color: var(--backgroundColor);
     color: var(--fontColor);
-    
-    
-   
 }
 
+textarea {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border: 1px solid rgb(203, 202, 202);
+    border-radius: 10px;
+    color: black;
+    background-color: var(--backgroundColor);
+    color: var(--fontColor);
+}
 
-
-input:focus {
+textarea:focus {
     outline: none;
     color: var(--fontColor);
 }
@@ -240,6 +246,10 @@ nav {
     padding: 7rem;
 }
 
+.bookContainer a:hover {
+    opacity: 50%;
+}
+
 
 @media screen and (max-width: 770px) {
 
@@ -258,8 +268,10 @@ nav {
     /* Event.html */
 
     .formContainer h4 {
-        padding-bottom: 1rem;
+        padding: 1rem 0;
     }
+
+    
 
     .formContainer {
         display: flex;
@@ -279,8 +291,10 @@ nav {
         width: 40rem;
     }
 
-    .radioFlex p {
-       text-align: center;
+    .radioFlex {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
 
     }
 
@@ -413,12 +427,9 @@ footer button:hover {
     line-height: 3rem
 } 
 
-/* .githubTag {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-   
-} */
+footer svg:hover {
+    opacity: 50%;
+}
 
 
 

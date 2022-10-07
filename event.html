@@ -96,34 +96,33 @@
                     <h4>Ange din nivå</h4>
                     <div class="radioFlex">
                         <div class="radioFlexChild">
-                    <label>
-                        <p>noob</p>
+                    <label class="radioFlex">
+                        <p>Noob</p>
                         <input type="radio" name="skill" id="noob">
                     </label>
-                    
-                    <label>
-                        <p>Hyfsad</p>
-                        <input type="radio" name="skill" id="hyfsad">
+
+                    <label class="radioFlex">
+                        <p>Noob</p>
+                        <input type="radio" name="skill" id="noob">
                     </label>
-                    
-                    <label>
-                        <p>Bra</p>
-                       <input type="radio" name="skill" id="bra">
+
+                    <label class="radioFlex">
+                        <p>Noob</p>
+                        <input type="radio" name="skill" id="noob">
                     </label>
-                    
-                    <label>
-                        <p>Proffs</p>
-                         <input type="radio" name="skill" id="proffs">
+
+                    <label class="radioFlex">
+                        <p>Noob</p>
+                        <input type="radio" name="skill" id="noob">
                     </label>
-                    
-                    <label>
-                        <p>Robin</p>
-                        <input type="radio" name="skill" id="Robin">
-                    </label>
+                   
                 </div>
                 </div>
                     <!-- Gör knappen så att när det skickas kommer du till ensida med en gif som bakgrund -->
-
+                    <h4>Motivera varför just du ska få åkta till månen</h4>
+                    <label>
+                        <textarea name="info" id="info" cols="30" rows="10" placeholder="Skriv något coolt"></textarea>
+                    </label>
                 </div>
 
 
@@ -286,7 +285,7 @@
                     <div class="test2">
                         <h4 class="footerSection1Heading">Sociala medier</h4>
 
-                        <a class="instagram" href="https://www.instagram.com/" target="_blank"> <svg width="87"
+                        <a href="https://www.instagram.com/" target="_blank"> <svg width="87"
                                 height="87" viewBox="0 0 87 87" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M43.1496 21.0142C30.9078 21.0142 21.0335 30.8885 21.0335 43.1304C21.0335 55.3722 30.9078 65.2465 43.1496 65.2465C55.3915 65.2465 65.2658 55.3722 65.2658 43.1304C65.2658 30.8885 55.3915 21.0142 43.1496 21.0142ZM43.1496 57.5088C35.2386 57.5088 28.7712 51.0606 28.7712 43.1304C28.7712 35.2001 35.2194 28.752 43.1496 28.752C51.0799 28.752 57.528 35.2001 57.528 43.1304C57.528 51.0606 51.0606 57.5088 43.1496 57.5088V57.5088ZM71.329 20.1095C71.329 22.9775 69.0192 25.2681 66.1705 25.2681C63.3025 25.2681 61.0119 22.9583 61.0119 20.1095C61.0119 17.2608 63.3217 14.951 66.1705 14.951C69.0192 14.951 71.329 17.2608 71.329 20.1095ZM85.9768 25.3451C85.6496 18.435 84.0713 12.314 79.009 7.271C73.966 2.22798 67.8451 0.649626 60.935 0.303159C53.8131 -0.101053 32.4669 -0.101053 25.3451 0.303159C18.4542 0.630378 12.3333 2.20873 7.271 7.25175C2.20873 12.2948 0.649626 18.4157 0.303159 25.3258C-0.101053 32.4476 -0.101053 53.7939 0.303159 60.9157C0.630378 67.8258 2.20873 73.9467 7.271 78.9897C12.3333 84.0328 18.435 85.6111 25.3451 85.9576C32.4669 86.3618 53.8131 86.3618 60.935 85.9576C67.8451 85.6304 73.966 84.052 79.009 78.9897C84.052 73.9467 85.6304 67.8258 85.9768 60.9157C86.3811 53.7939 86.3811 32.4669 85.9768 25.3451V25.3451ZM76.7762 68.5572C75.2748 72.3299 72.3684 75.2364 68.5765 76.757C62.8983 79.009 49.4245 78.4893 43.1496 78.4893C36.8747 78.4893 23.3817 78.9897 17.7228 76.757C13.9501 75.2556 11.0436 72.3491 9.52304 68.5572C7.271 62.879 7.7907 49.4053 7.7907 43.1304C7.7907 36.8555 7.29025 23.3625 9.52304 17.7035C11.0244 13.9309 13.9309 11.0244 17.7228 9.50379C23.401 7.25175 36.8747 7.77145 43.1496 7.77145C49.4245 7.77145 62.9175 7.271 68.5765 9.50379C72.3491 11.0052 75.2556 13.9116 76.7762 17.7035C79.0282 23.3817 78.5085 36.8555 78.5085 43.1304C78.5085 49.4053 79.0282 62.8983 76.7762 68.5572Z"
@@ -305,14 +304,14 @@
                             </svg>
                         </a>
 
-                        <a class="facebook" href="https://www.facebook.com/" target="_blank"><svg width="87" height="86"
+                        <a href="https://www.facebook.com/" target="_blank"><svg width="87" height="86"
                                 viewBox="0 0 87 86" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M86.28 43.14C86.28 19.3086 66.9714 0 43.14 0C19.3086 0 0 19.3086 0 43.14C0 64.6717 15.7757 82.5192 36.3994 85.7582V55.6106H25.4404V43.14H36.3994V33.6353C36.3994 22.8242 42.8356 16.8524 52.6934 16.8524C57.4145 16.8524 62.3512 17.6944 62.3512 17.6944V28.3054H56.91C51.5523 28.3054 49.8806 31.6314 49.8806 35.0426V43.14H61.845L59.9315 55.6106H49.8806V85.7582C70.5043 82.5192 86.28 64.6717 86.28 43.14Z"
                                     fill="#2342E0" />
                             </svg>
                         </a>
-                        <a class="twitter" href="https://twitter.com/?lang=sv" target="_blank">
+                        <a href="https://twitter.com/?lang=sv" target="_blank">
                             <svg width="87" height="71" viewBox="0 0 87 71" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -321,7 +320,7 @@
                             </svg>
                         </a>
 
-                        <a class="youtube" href="https://youtube.com" target="_blank">
+                        <a href="https://youtube.com" target="_blank">
                             <svg width="87" height="61" viewBox="0 0 87 61" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
