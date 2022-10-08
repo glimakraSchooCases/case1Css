@@ -331,6 +331,34 @@ nav {
     }
 
 
+    /* Gallery */
+
+    .galleryContainer {
+        display: flex;
+        gap: .5rem;
+        flex-wrap: wrap;
+    }
+  .galleryChild {
+    display: flex;
+    flex-flow: column;
+    flex: 25%;
+    vertical-align: middle;
+    gap: .5rem;
+  }
+    
+ 
+
+    /* .galleryChild img {
+        
+        object-fit: cover;
+        width: 230px;
+        height: 230px; 
+        border-radius: 20px; 
+} */
+
+  
+
+
 /* footer */
 
 
