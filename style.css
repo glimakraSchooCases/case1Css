@@ -189,6 +189,14 @@ nav {
         display: block;
     }
 
+    p {
+        text-align: center;
+    }
+
+    h4 {
+        text-align: center;
+    }
+
     }
   
     @media screen and (max-width: 770px) {
@@ -199,12 +207,19 @@ nav {
             
         }
     
-    
+        p {
+            text-align: center;
+        }
+
+        h4 {
+            text-align: center;
+        }
+
         }
     
 
 
-/* Main */
+
 
 /* My interests */
 .myInterestsChild {
@@ -232,6 +247,15 @@ nav {
         display: flex;
         flex-wrap: wrap;
         
+    }
+
+    p {
+        padding: 0 1rem;
+        
+    }
+
+    h4 {
+        padding: 1rem;
     }
 
 
@@ -275,10 +299,16 @@ nav {
     .bookContainer {
         display: flex;
         flex-flow: wrap;
-        
-        
+       
     }
 
+    /* Möjlig lösning fråga lärare */
+   /* .reverse {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction:column-reverse ;
+   } */
 
     }
 
@@ -330,6 +360,22 @@ nav {
         box-shadow: 3px 3px 3px;
     }
 
+    @media screen and (max-width: 700px) {
+
+        .formContainer input {
+            width: auto;
+        }
+
+        textarea {
+            width: 20rem;
+        }
+
+        h4 {
+            text-align: center;
+        }
+    }
+
+
 
     /* Gallery */
 
@@ -366,7 +412,7 @@ nav {
         align-items: center;
     }
 
- img {
+ .galleryContainer img {
     object-fit: cover;
     width: 330px;
     height: 330px; 
@@ -400,8 +446,8 @@ footer {
 }
 
 footer svg {
-    width: 2rem;
-   padding-left: 2rem;
+    
+    padding: 1rem;
 
 }
 
