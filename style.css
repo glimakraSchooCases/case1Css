@@ -335,6 +335,7 @@ nav {
 
     .galleryContainer {
         display: flex;
+        flex-direction: row;
         gap: .5rem;
         flex-wrap: wrap;
     }
@@ -342,11 +343,45 @@ nav {
     display: flex;
     flex-flow: column;
     flex: 25%;
-    vertical-align: middle;
     gap: .5rem;
   }
+
+  .crop {
+    height: 36rem;
+  }
+
+
+  @media screen and (max-width: 700px) {
+
+    .galleryContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .galleryChild {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+ img {
+    object-fit: cover;
+    width: 330px;
+    height: 330px; 
+    border-radius: 20px;
+
+ }
+    
+  
+    }
+  
+
     
  
+   
+    
 
     /* .galleryChild img {
         
