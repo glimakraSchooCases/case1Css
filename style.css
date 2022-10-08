@@ -10,7 +10,7 @@
 
 }
 
-/* generall type selectors */
+/* generall type and psudo selectors */
 
 body * {
     color: var(--fontColor);
@@ -41,6 +41,7 @@ input {
     border-bottom: 1px transparent rgb(203, 202, 202);
     color: black;
     background-color: var(--backgroundColor);
+    color: var(--fontColor);
     
    
 }
@@ -89,11 +90,28 @@ label {
     padding: 1rem;
 }
 
+button {
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+
+    background: rgb(75, 4, 66);
+    background: linear-gradient(90deg, rgba(75, 4, 66, 1) 0%, rgba(110, 9, 121, 1) 48%, rgba(139, 23, 138, 1) 72%, rgba(213, 18, 199, 1) 88%, rgba(163, 14, 176, 1) 100%);
+
+}
+
+button:hover {
+    opacity: 50%;
+}
+
 
 /* generella klasser */
 
 .borderTop {
     border-top: 1px solid rgb(203, 202, 202);
+}
+
+.paddingTop {
+    padding-top: 2rem;
 }
 
 /* Index.html */
@@ -299,7 +317,18 @@ nav {
     }
 
  
+    .select {
+        margin: 1rem;
+    }
 
+    .labelContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .labelButton {
+        box-shadow: 3px 3px 3px;
+    }
 
 
 /* footer */
@@ -329,22 +358,13 @@ footer form {
     padding-top: 3rem;
 }
 
-footer button {
-    margin-top: 1rem;
-    padding: 1rem 2rem;
 
-    background: rgb(75, 4, 66);
-    background: linear-gradient(90deg, rgba(75, 4, 66, 1) 0%, rgba(110, 9, 121, 1) 48%, rgba(139, 23, 138, 1) 72%, rgba(213, 18, 199, 1) 88%, rgba(163, 14, 176, 1) 100%);
-
-}
 
 footer p {
     margin-bottom: 1rem;
 }
 
-footer button:hover {
-    opacity: 50%;
-}
+
 
 
 

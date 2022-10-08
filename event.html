@@ -6,7 +6,7 @@
     <link rel="icon" href="images/android-chrome-512x512.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guidad tur</title>
+    <title>Event</title>
 
     <meta name="keywords" content="Ansök, boka, Kebnekaise, bergs bestigning">
     <meta name="description" content="Boka en guidad tur till toppen av Kebnekaise">
@@ -64,7 +64,7 @@
 
 
             
-            <form class="borderTop" action="event.html" method="get">
+            <form class="borderTop" action="formAction.html" method="get">
 
                 <div class="formContainer">
                     <h4>Personlig Information</h4>
@@ -88,8 +88,13 @@
                         <input type="tel" name="tel" id="tel" placeholder="Ange ditt telefonnummer" required>
                     </label>
                     
+                    <label>
+                        <p>Födelsedag</p>
+                        <input type="date" name="date" id="date">
+                    </label>
+
                     <h4>Välj ditt favorti arkad spel</h4>
-                    <select name="arcade" id="arcade">
+                    <select class="select" name="arcade" id="arcade">
                         <option value="0">Välj spel</option>
                         <option value="1">Pacman</option>
                     </select>
@@ -120,9 +125,12 @@
                 </div>
                     <!-- Gör knappen så att när det skickas kommer du till ensida med en gif som bakgrund -->
                     <h4>Motivera varför just du ska få åkta till månen</h4>
-                    <label>
+                    <label class="labelContainer">
                         <textarea name="info" id="info" cols="30" rows="10" placeholder="Skriv något coolt"></textarea>
+                        <button class="labelButton">Skicka formulär</button>
                     </label>
+
+                    
                 </div>
 
 
