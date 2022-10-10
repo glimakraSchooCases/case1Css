@@ -266,8 +266,39 @@ nav {
 
 /* BookSection */
 
-
 .bookContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.bookContainer:nth-child(even) {
+ display: flex;
+ flex-direction: row-reverse;
+}
+
+
+.bookChild {
+    width: 50rem;
+    text-align: center;
+    line-height: 1.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bookContainer img {
+    padding: 7rem;
+}
+
+.bookContainer a:hover {
+    opacity: 50%;
+}
+
+
+/* .bookContainer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -290,7 +321,7 @@ nav {
 
 .bookContainer a:hover {
     opacity: 50%;
-}
+} */
 
 
 @media screen and (max-width: 770px) {
@@ -429,12 +460,12 @@ nav {
   
 
     
+ /* Landscape */
+
  
-   
-    
-
-  
-
+   tabel, th, td {
+    border: 1px solid hotpink;
+   }
   
 
 
@@ -587,6 +618,14 @@ footer svg:hover {
   .newsletterSvg {
     display: none;
   }
+
+ .paddingTop {
+    padding: top 3rem;
+ }
+
+ .paddingBottom {
+    padding-bottom: 3rem;
+ }
 
   }
 
