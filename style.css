@@ -114,6 +114,10 @@ button:hover {
     padding-top: 2rem;
 }
 
+.borderBottom {
+    border-bottom: 1px solid rgb(203, 202, 202);
+}
+
 /* Index.html */
 
 /* Nav */
@@ -467,6 +471,7 @@ nav {
 
  }
 
+
  
    tabel, th, td {
     border: 1px solid hotpink;
@@ -476,8 +481,72 @@ nav {
     padding: 1rem;
    }
 
+   table {
+    margin-top: 4rem;
+    padding-top: 3rem;
+    width: 80%;
+    margin:0 auto;
+    
+   }
+
+   section.tabelContainer {
+    padding: 10rem;
+   }
+
+   .float {
+    float: right;
+    text-align: center;
+    padding: 1rem;
+   }
+
    .testImg {
     width: 1.5rem;
+   }
+
+   .mapContainer {
+    display: none;
+    flex-direction: column;
+    align-items: flex-end;
+    
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+   }
+    .mapChild {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .mapChild h4 {
+       
+        padding-bottom: 2rem;
+    }
+
+   @media screen and (max-width: 700px) {
+
+    #landscapeContainer h4, p {
+         text-align: center;
+     }
+
+     .mapContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+
+     iframe {
+        width: 90%;
+     }
+
+     .float {
+        display: none;
+     }
+     
+     /* Make table responsive */
+
+   
+
    }
 
    
