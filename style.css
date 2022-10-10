@@ -333,14 +333,7 @@ nav {
        
     }
 
-    /* Möjlig lösning fråga lärare */
-   /* .reverse {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    flex-direction:column-reverse ;
-   } */
-
+ 
     }
 
 
@@ -462,11 +455,32 @@ nav {
     
  /* Landscape */
 
+
+ #landscapeContainer {
+    padding: 2rem;
+
+ }
+
+ #landscapeContainer h4, p {
+    line-height: 1.5rem;
+    padding: 1rem;
+
+ }
+
  
    tabel, th, td {
     border: 1px solid hotpink;
    }
   
+   td, th {
+    padding: 1rem;
+   }
+
+   .testImg {
+    width: 1.5rem;
+   }
+
+   
 
 
 /* footer */
