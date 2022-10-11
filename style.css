@@ -474,7 +474,7 @@ nav {
 
  
    tabel, th, td {
-    border: 1px solid hotpink;
+    border: 1px solid rgb(163, 8, 163);
    }
   
    td, th {
@@ -489,9 +489,10 @@ nav {
     
    }
 
-   section.tabelContainer {
-    padding: 10rem;
-   }
+    section.tabelContainer {
+    margin: 10rem;
+   
+   } 
 
    .float {
     float: right;
@@ -542,10 +543,15 @@ nav {
      .float {
         display: none;
      }
-     
-     /* Make table responsive */
 
-   
+     table {
+        width: 100%;
+     }
+
+     section.tabelContainer {
+        margin: 1rem;
+       } 
+    
 
    }
 
@@ -598,12 +604,7 @@ footer p {
 
 
 .footerSection1Container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    
-    
+    display: flex;    
 }
 
 .footerSection1Heading {
@@ -614,7 +615,6 @@ footer p {
 .test2 {
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
    
 }
@@ -631,8 +631,8 @@ footer p {
 .footerSection2child {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .footerSection3Container {
@@ -690,6 +690,7 @@ footer svg:hover {
 
   .footerSection2Container {
     gap: 2rem;
+    padding-right: 2.3rem;
   }
 
   .footerSection3Container {
@@ -709,6 +710,13 @@ footer svg:hover {
  .paddingBottom {
     padding-bottom: 3rem;
  }
+ .footerSection2child {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+
 
   }
 
