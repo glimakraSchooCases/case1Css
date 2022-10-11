@@ -141,6 +141,8 @@ ul li a:hover {
     
 }
 
+
+
 .authorTag {
     display: flex;
     align-items: flex-end;
@@ -148,6 +150,9 @@ ul li a:hover {
     height: 20%;
     font-style: italic;
 }
+
+
+
 
 nav {
     font-weight: 800;
@@ -584,11 +589,18 @@ code {
 
 @media screen and (max-width: 1382px) {
 
-    #gitcontainer {
+    #gitContainer {
+        display: flex;
+        padding: 1rem;
+        width: 100%;
+        padding: 0;
+        border-bottom: 1px solid rgb(203, 202, 202);
+    }
 
-        display: block;
+    #gitContainer li {
         width: auto;
-
+        padding: 1rem;
+        line-height: 2rem;
     }
 
 }
