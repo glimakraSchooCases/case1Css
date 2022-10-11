@@ -558,7 +558,40 @@ nav {
 
  
    
+/* git Tutorial */
 
+#gitContainer {
+    display: flex;
+    justify-content: center;
+    padding: 10rem;
+    border-bottom: 1px solid rgb(203, 202, 202);
+}
+
+#gitContainer li {
+    width: 50rem;
+    line-height: 2rem;
+}
+
+#gitContainer h4 {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+ 
+code {
+    border: 1px solid rgb(203, 202, 202);
+    padding: .6rem;
+}
+
+@media screen and (max-width: 1382px) {
+
+    #gitcontainer {
+
+        display: block;
+        width: auto;
+
+    }
+
+}
 
 
 /* footer */
