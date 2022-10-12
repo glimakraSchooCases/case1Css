@@ -32,6 +32,10 @@ h4 {
 
 }
 
+article p {
+    text-align: justify;
+    line-height: 2rem;
+}
 
 
 input {
@@ -117,6 +121,8 @@ button:hover {
 .borderBottom {
     border-bottom: 1px solid rgb(203, 202, 202);
 }
+
+
 
 /* Index.html */
 
@@ -243,7 +249,7 @@ nav {
 }
 
 .myInterestsContainer {
-    height: 30rem;
+    height: 50rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -306,6 +312,11 @@ nav {
     opacity: 50%;
 }
 
+.justify {
+    text-align: justify;
+    line-height: 2.4rem;
+    
+}
 
 /* .bookContainer {
     display: flex;
@@ -342,6 +353,9 @@ nav {
        
     }
 
+    .bookContainer p {
+        padding: 1rem;
+    }
  
     }
 
@@ -475,6 +489,8 @@ nav {
     padding: 1rem;
 
  }
+
+
 
 
  
