@@ -17,6 +17,16 @@ body * {
     font-size: var(--fontSize);
 }
 
+
+@media screen and (max-width: 400px) {
+
+   article div p {
+    text-align: left;
+   }
+
+}
+
+
 body {
     background-color: var(--backgroundColor);
 }
@@ -121,6 +131,10 @@ button:hover {
 .borderBottom {
     border-bottom: 1px solid rgb(203, 202, 202);
 }
+
+
+
+
 
 
 
@@ -296,7 +310,6 @@ nav {
 
 .bookChild {
     width: 50rem;
-    text-align: center;
     line-height: 1.7rem;
     display: flex;
     flex-direction: column;
@@ -312,36 +325,8 @@ nav {
     opacity: 50%;
 }
 
-.justify {
-    text-align: justify;
-    line-height: 2.4rem;
-    
-}
 
-/* .bookContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
 
-.bookChild {
-    width: 50rem;
-    text-align: center;
-    line-height: 1.7rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.bookContainer img {
-    padding: 7rem;
-}
-
-.bookContainer a:hover {
-    opacity: 50%;
-} */
 
 
 @media screen and (max-width: 770px) {
@@ -355,6 +340,13 @@ nav {
 
     .bookContainer p {
         padding: 1rem;
+    }
+
+    article {
+        padding: 2rem;
+    }
+    h4 {
+        line-height: 2rem;
     }
  
     }
@@ -573,10 +565,17 @@ nav {
         margin: 1rem;
        } 
     
+    
 
    }
 
+   @media screen and (max-width: 400px) {
 
+    article p {
+        text-align: left;
+    }
+
+   }
  
    
 /* git Tutorial */
