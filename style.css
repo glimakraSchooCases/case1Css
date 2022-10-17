@@ -476,8 +476,8 @@ nav {
 
  }
 
- #landscapeContainer h4, p {
-    line-height: 1.5rem;
+ #landscapeContainer p {
+    line-height: 2rem;
     padding: 1rem;
 
  }
